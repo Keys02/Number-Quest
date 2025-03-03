@@ -1,0 +1,32 @@
+        <!--This is guess the number game hosted by Dexter Dorkman-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dexter Dorkman's guess game</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <body>
+        <!-- Modal Container -->
+        <section id="modal_background">
+            <div class="modal_content">
+                <label for="difficulty">Difficulty level:</label>
+                <select for="difficulty">
+                    <option id="easy" value="Easy">Easy</option>
+                    <option id="medium" value="Medium">Medium</option>
+                    <option id="hard" value="Hard">Hard</option>
+                </select>
+                <button class="start">Start</button>
+            </div>
+        </section>
+
+        <!--Game Container -->
+        <section id="game_container">
+            <h1>Number-Quest</h1>
+            <h5>--Hosted by Dexter Dorkman--</h5>
+            <img id="dexter-dorkman" src="/dexter-dorkman-images/Dexter_Dorkman.png" alt="Dexter Dorkman">
+            <input class="number_guess" type="number" placeholder="Guess the number"/>
+            <button class="guess">Guess</button>
+        </section>
+        <script src="game.js"></script>
+    </body>
+    </html>
