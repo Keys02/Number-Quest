@@ -6,7 +6,7 @@ body{
     margin:0px;
     padding:0px;
     font-family:poppins, Helvetica, sans-serif;
-    background-color:#614b99f2;
+    background-color:#6b5b95;
     overflow: hidden;
 }
 
@@ -18,8 +18,8 @@ h1{
     text-shadow: 2px 2px #633b1d
 }
 
-h5 {
-    font-size:.85rem;
+h2 {
+    font-size: 1rem;
     text-align:center;
 }
 
