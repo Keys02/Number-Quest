@@ -15,4 +15,6 @@ On a quest to find the lucky number, how many guesses will it take you find the 
 ## Hard difficulty
 ![Number Quest hard difficulty](screenshots/Number-quest-hard-difficulty.png)
 
+## Gameplay
+![Number Quest gameplay](screenshots/Number-quest-gameplay.gif)
 **Author**: Keys🚀👩🏽‍💻
