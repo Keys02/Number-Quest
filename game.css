@@ -35,8 +35,8 @@ section#game_container {
 img#dexter-dorkman{
     position:absolute;
     margin:0px 200px;
-    width:320px;
-    height:370px;
+    width:310px;
+    height:320px;
     display:none;
     animation-name:flip_image;
     animation-duration:.8s;
