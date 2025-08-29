@@ -48,7 +48,7 @@ function hardDifficultyLevel(){
 // Game start function
 function guessNumber(guessedNum){
     if(guessedNum == ""){
-        dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_enter_a_number.png")
+        dexterDorkmanImg.setAttribute("src","./dexter-dorkman-images/Dexter_Dorkman_enter_a_number.png")
         guessInput.select()
             return
         }
@@ -59,11 +59,11 @@ function guessNumber(guessedNum){
 
        if(guessedNum==dexterDorkmanNum["easyDifficultyLevel"]){
            setTimeout(function(){
-            dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_processing.png")
+            dexterDorkmanImg.setAttribute("src","./dexter-dorkman-images/Dexter_Dorkman_processing.png")
         },500)
 
         setTimeout(function(){
-            dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_correct.png")
+            dexterDorkmanImg.setAttribute("src","./dexter-dorkman-images/Dexter_Dorkman_correct.png")
         },1500)
 
         setTimeout(function(){
@@ -74,11 +74,11 @@ function guessNumber(guessedNum){
 
        else if(guessedNum>dexterDorkmanNum["easyDifficultyLevel"]){
            setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_processing.png")
+                dexterDorkmanImg.setAttribute("src","./dexter-dorkman-images/Dexter_Dorkman_processing.png")
             },500)
 
             setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_too_high.png")
+                dexterDorkmanImg.setAttribute("src","./dexter-dorkman-images/Dexter_Dorkman_too_high.png")
                 guessInput.value = ""
                 guessInput.select()
             },1500)
@@ -87,11 +87,11 @@ function guessNumber(guessedNum){
 
        else {
            setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_processing.png")
+                dexterDorkmanImg.setAttribute("src","./dexter-dorkman-images/Dexter_Dorkman_processing.png")
             },500)
 
             setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_too_low.png")
+                dexterDorkmanImg.setAttribute("src","./dexter-dorkman-images/Dexter_Dorkman_too_low.png")
                 guessInput.value = ""
                 guessInput.select()
             },1500)
@@ -107,11 +107,11 @@ function guessNumber(guessedNum){
 
        if(guessedNum==dexterDorkmanNum["mediumDifficultyLevel"]){
             setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_processing.png")
+                dexterDorkmanImg.setAttribute("src","./dexter-dorkman-images/Dexter_Dorkman_processing.png")
             },500)
 
             setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_correct.png")
+                dexterDorkmanImg.setAttribute("src","./dexter-dorkman-images/Dexter_Dorkman_correct.png")
             },1500)
 
             setTimeout(function(){
@@ -121,11 +121,11 @@ function guessNumber(guessedNum){
 
         else if(guessedNum>dexterDorkmanNum["mediumDifficultyLevel"]){
            setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_processing.png")
+                dexterDorkmanImg.setAttribute("src","./dexter-dorkman-images/Dexter_Dorkman_processing.png")
             },500)
 
             setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_too_high.png")
+                dexterDorkmanImg.setAttribute("src","./dexter-dorkman-images/Dexter_Dorkman_too_high.png")
                 guessInput.value = ""
                 guessInput.select()
             },1500)
@@ -133,11 +133,11 @@ function guessNumber(guessedNum){
 
         else {
            setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_processing.png")
+                dexterDorkmanImg.setAttribute("src","./dexter-dorkman-images/Dexter_Dorkman_processing.png")
             },500)
 
             setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_too_low.png")
+                dexterDorkmanImg.setAttribute("src","./dexter-dorkman-images/Dexter_Dorkman_too_low.png")
                 guessInput.value = ""
                 guessInput.select()
             },1500)
@@ -152,11 +152,11 @@ function guessNumber(guessedNum){
 
        if(guessedNum==dexterDorkmanNum["hardDifficultyLevel"]){
             setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_processing.png")
+                dexterDorkmanImg.setAttribute("src","dexter-dorkman-images/Dexter_Dorkman_processing.png")
             },500)
 
             setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_correct.png")
+                dexterDorkmanImg.setAttribute("src","dexter-dorkman-images/Dexter_Dorkman_correct.png")
             },1500)
 
             setTimeout(function(){
@@ -166,11 +166,11 @@ function guessNumber(guessedNum){
 
         else if(guessedNum>dexterDorkmanNum["hardDifficultyLevel"]){
            setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_processing.png")
+                dexterDorkmanImg.setAttribute("src","dexter-dorkman-images/Dexter_Dorkman_processing.png")
             },500)
 
             setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_too_high.png")
+                dexterDorkmanImg.setAttribute("src","dexter-dorkman-images/Dexter_Dorkman_too_high.png")
                 guessInput.value = ""
                 guessInput.select()
             },1500)
@@ -178,11 +178,11 @@ function guessNumber(guessedNum){
 
         else {
            setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_processing.png")
+                dexterDorkmanImg.setAttribute("src","dexter-dorkman-images/Dexter_Dorkman_processing.png")
             },500)
 
             setTimeout(function(){
-                dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_too_low.png")
+                dexterDorkmanImg.setAttribute("src","dexter-dorkman-images/Dexter_Dorkman_too_low.png")
                 guessInput.value = ""
                 guessInput.select()
             },1500)
@@ -201,20 +201,20 @@ function guessNumber(guessedNum){
         },300)
 
         setTimeout(function(){
-            dexterDorkmanImg.setAttribute("src", "/dexter-dorkman-images/Dexter_Dorkman_introduction.png")
+            dexterDorkmanImg.setAttribute("src", "dexter-dorkman-images/Dexter_Dorkman_introduction.png")
         },1500)
     
         setTimeout(function(){
         if(difficultyLevels["easy"].selected == true){
-            dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_1-20.png")
+            dexterDorkmanImg.setAttribute("src","dexter-dorkman-images/Dexter_Dorkman_1-20.png")
         }
     
         if(difficultyLevels["medium"].selected == true){
-            dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_1-50.png")
+            dexterDorkmanImg.setAttribute("src","dexter-dorkman-images/Dexter_Dorkman_1-50.png")
         }
     
         if(difficultyLevels["hard"].selected == true){
-            dexterDorkmanImg.setAttribute("src","/dexter-dorkman-images/Dexter_Dorkman_1-100.png")
+            dexterDorkmanImg.setAttribute("src","dexter-dorkman-images/Dexter_Dorkman_1-100.png")
         }
         },4000)
     
